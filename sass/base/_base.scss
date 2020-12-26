@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.container-profile {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: $color-red;
+}
+
+::selection {
+  color: #fff;
+  background: $color-red;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}

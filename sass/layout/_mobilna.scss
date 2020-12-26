@@ -1,0 +1,43 @@
+.mobile-app {
+  padding-top: 5rem;
+  border-top: 1px solid rgb(207, 198, 198);
+  font-size: 1.9rem;
+  p {
+    margin-bottom: 3rem;
+  }
+  .image {
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+
+  .sides {
+    display: flex;
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .left {
+      flex: 80%;
+      padding-right: 3rem;
+      a {
+        text-decoration: none;
+        color: $color-dark;
+      }
+    }
+    .right {
+      img {
+        width: 70%;
+      }
+      flex: 20%;
+      padding: 2rem 0;
+      h1 {
+        color: $color-yellow-2;
+        line-height: 1;
+        margin-bottom: 2rem;
+        font-weight: 900;
+      }
+    }
+  }
+}

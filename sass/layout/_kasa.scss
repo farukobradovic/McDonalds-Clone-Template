@@ -1,0 +1,49 @@
+.creating-order {
+  padding-top: 5rem;
+  border-top: 1px solid rgb(207, 198, 198);
+  #customers {
+    align-items: center;
+    color: $color-dark;
+    margin-bottom: 3rem;
+    img {
+      height: 7rem;
+    }
+    th {
+      background: $color-red;
+    }
+    td {
+      height: 10rem;
+      text-align: center;
+
+      span {
+        margin-left: 2rem;
+      }
+    }
+    font-size: 1.8rem;
+
+    a {
+      text-decoration: none;
+      color: $color-red;
+    }
+  }
+
+  .total-cost {
+    color: $color-dark;
+    margin-bottom: 15rem;
+    p {
+      font-size: 1.3rem;
+    }
+    &-all {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        border: none;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

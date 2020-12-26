@@ -1,0 +1,26 @@
+.login {
+  padding-top: 10rem;
+  border-top: 1px solid rgb(207, 198, 198);
+
+  .login-p {
+    margin-top: 4em;
+    color: $color-dark;
+    font-size: 1.5rem;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: $color-red;
+      padding: 0.6rem 2rem;
+      border-radius: 3px;
+      margin-left: 1rem;
+      font-size: 1.3rem;
+      &:hover {
+        background-color: #fff;
+        color: $color-red;
+        transition: all 0.2s;
+      }
+    }
+  }
+}

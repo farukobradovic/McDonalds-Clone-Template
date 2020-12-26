@@ -1,0 +1,46 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #777;
+}
+
+.heading-tertiary {
+  color: $color-dark;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-weight: 900;
+}
+
+.paragraph-article {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.paragraph-bold {
+  color: $color-yellow-2;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.heading-products {
+  margin-top: 6rem;
+  padding-bottom: 2rem;
+  color: $color-yellow-2;
+  font-weight: 600;
+  font-size: 4rem;
+  border-bottom: 1px solid $color-yellow-2;
+}
+.span-bold {
+  font-weight: 700;
+}
+.basket-order {
+  color: $color-dark;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+}

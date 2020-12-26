@@ -1,0 +1,39 @@
+.order-details {
+  padding-top: 5rem;
+  border-top: 1px solid rgb(207, 198, 198);
+  color: $color-dark;
+  margin-bottom: 15rem;
+
+  h2 {
+    margin-bottom: 5rem;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  &-box {
+    border: 1px solid rgb(207, 198, 198);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgb(207, 198, 198);
+
+      &:last-child {
+        border: none;
+      }
+      p {
+        flex: 33%;
+        text-align: center;
+      }
+
+      .bold {
+        margin-top: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

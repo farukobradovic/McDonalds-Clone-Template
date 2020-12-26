@@ -1,0 +1,72 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 8rem;
+  background: $color-dark;
+  clip-path: polygon(0 0, 51% 16%, 100% 0, 100% 100%, 49% 100%, 0 100%);
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 12rem;
+    }
+
+    .desc {
+      margin-left: 2rem;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.5rem;
+      }
+
+      p {
+        color: #fff;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    a {
+      padding: 0.3rem;
+      background: $color-yellow;
+      color: $color-dark;
+      width: 4rem;
+      text-align: center;
+      font-size: 2rem;
+      border-radius: 3px;
+      margin-right: 1rem;
+      i {
+        font-size: 2rem;
+      }
+      &:hover {
+        background: #fff;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .privacy {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        list-style: none;
+
+        &:not(:last-child) {
+          margin-right: 0.8rem;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

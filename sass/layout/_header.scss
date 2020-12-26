@@ -1,0 +1,66 @@
+.navigation {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    .logo {
+      img {
+        width: 6rem;
+      }
+    }
+
+    .list-box {
+      .list {
+        list-style: none;
+        display: flex;
+        &__item {
+          &:not(:last-child) {
+            margin-right: 4rem;
+          }
+          &__link {
+            text-decoration: none;
+            font-size: 1.8rem;
+            color: #777;
+            font-weight: 500;
+            &:hover {
+              color: $color-yellow;
+            }
+          }
+        }
+      }
+    }
+
+    .social-links {
+      display: flex;
+      align-items: center;
+
+      &-link {
+        padding: 0.3rem;
+        background: $color-yellow;
+        color: #fff;
+        width: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 3px;
+
+        &:hover {
+          transition: all 0.3s;
+          background: $color-dark;
+        }
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+      }
+      .basket {
+        background: $color-red !important;
+      }
+    }
+  }
+}
+
+.active {
+  color: $color-yellow-2;
+}
